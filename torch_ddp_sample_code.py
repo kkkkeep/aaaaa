@@ -18,6 +18,9 @@ from torch.autograd import Variable
 from torch.nn.modules import Module
 from torchvision import datasets, transforms
 
+
+a = 111111
+
 gbatch_size = 128
 epochs = 10
 world_size = os.environ.get("WORLD_SIZE", "{}")
